@@ -1,0 +1,9 @@
+.h1 {
+  @apply text-4xl sm:text-5xl md:text-6xl lg:text-h1 font-semibold;
+}
+.body-text {
+  @apply text-base sm:text-lg md:text-body font-normal;
+}
+.h2 {
+  @apply text-3xl sm:text-4xl md:text-5xl lg:text-h2 font-semibold;
+}

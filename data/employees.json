@@ -1,0 +1,26 @@
+[
+  {
+    "id": "e1",
+    "name": "Al Amin Akash",
+    "phone": "+8801724716296",
+    "bloodGroup": "B+",
+    "birthday": "2000-10-30",
+    "designation": "Web Developer",
+    "email": "akash@theicthub.com",
+    "status": "Active",
+    "createdAt": "2026-08-10T05:03:35.056Z",
+    "updatedAt": "2026-08-10T05:14:10.097Z"
+  },
+  {
+    "id": "e2",
+    "name": "Zubaer Ahammed",
+    "phone": "+8801913846060",
+    "bloodGroup": "B+",
+    "birthday": "1990-08-10",
+    "designation": "CEO",
+    "email": "zubaer@theicthub.com",
+    "status": "Active",
+    "createdAt": "2026-08-10T05:03:35.056Z",
+    "updatedAt": "2026-08-10T05:54:56.054Z"
+  }
+]

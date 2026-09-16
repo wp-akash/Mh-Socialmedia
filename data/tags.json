@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "name": "React",
+    "slug": "react"
+  },
+  {
+    "id": "2",
+    "name": "Next.js",
+    "slug": "nextjs"
+  }
+]

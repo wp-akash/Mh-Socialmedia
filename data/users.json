@@ -1,0 +1,42 @@
+[
+  {
+    "name": "samran",
+    "email": "samran@theicthub.com",
+    "role": "Admin",
+    "status": "Active",
+    "password": "Email@24/7",
+    "id": "6fe7bba4-570f-4489-969b-8406ec6c4421",
+    "createdAt": "2026-08-12T10:59:51.826Z",
+    "updatedAt": "2026-08-12T10:59:51.826Z"
+  },
+  {
+    "name": "Sadik Ahammed",
+    "email": "sadik@theicthub.com",
+    "role": "Viewer",
+    "status": "Active",
+    "password": "Email@24/7",
+    "id": "1e1f7914-2017-4988-8da3-a109b565dc20",
+    "createdAt": "2026-08-12T09:34:35.032Z",
+    "updatedAt": "2026-08-12T10:56:47.737Z"
+  },
+  {
+    "name": "Mufrid",
+    "email": "smufrid@theicthub.com",
+    "role": "Editor",
+    "status": "Active",
+    "password": "smufrid@theicthub.com",
+    "id": "1786524255323",
+    "createdAt": "2026-08-12T08:44:15.323Z",
+    "updatedAt": "2026-08-12T08:44:15.323Z"
+  },
+  {
+    "name": "Alamin",
+    "email": "alaminakash145@gmail.com",
+    "role": "Admin",
+    "status": "Active",
+    "id": "1786276886834",
+    "createdAt": "2026-08-09T12:01:26.834Z",
+    "updatedAt": "2026-08-09T12:04:31.932Z",
+    "password": "Email@24/7"
+  }
+]
