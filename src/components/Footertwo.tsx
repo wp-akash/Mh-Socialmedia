@@ -12,27 +12,27 @@ const footerLinks = [
       { title: "Home", href: "/" },
       { title: "About", href: "/about" },
       { title: "Services", href: "/services" },
-      { title: "Project", href: "/project" },
       { title: "Blog", href: "/blog" },
+      { title: "Contact", href: "/contact" },
     ],
   },
   {
     group: "Services",
     items: [
-      { title: "Branding & Design", href: "/services" },
-      { title: "Meta Ads Marketing", href: "/services" },
-      { title: "Google Ads Marketing", href: "/services" },
-      { title: "Website Design & Development", href: "/services" },
-      { title: "Search Engine Optimization", href: "/services" },
+      { title: "Branding & Design", href: "/services/branding-and-design" },
+      { title: "Meta Ads Marketing", href: "/services/meta-ads" },
+      { title: "Google Ads Marketing", href: "/services/google-ads" },
+      { title: "Website Design & Development", href: "/services/web-development" },
+
     ],
   },
   {
     group: "Our Popular services",
     items: [
-      { title: "Social Media Marketing", href: "/contact" },
-      { title: "Content Marketing", href: "/about" },
-      { title: "E-commerce Marketing", href: "/404" },
-      { title: "Email Marketing", href: "/404" },
+      { title: "Search Engine Optimization", href: "/services/seo" },
+      { title: "Social Media Marketing", href: "/services/social-media-marketing" },
+      { title: "Content Marketing", href: "/services/content-marketing" },
+      { title: "Paid Advertising", href: "/services/paid-ads" },
     ],
   },
 ];
@@ -110,7 +110,7 @@ export default function Footertwo() {
           {/* ── Bottom Section ── */}
           <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-white/100 font-medium">
             <p>© {new Date().getFullYear()} MH Social Powered by <Link className="hover:underline transition-all duration-300" href={"https://www.theicthub.com/"}>The ICT Hub</Link></p>
-            <p>Powered by MH Social</p>
+            <p><Link className="hover:underline transition-all duration-300" href={"/privacy-policy"}>Privacy Policy</Link> | <Link className="hover:underline transition-all duration-300" href={"/contact"}>Contact</Link></p>
           </div>
 
         </div>

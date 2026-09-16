@@ -81,7 +81,7 @@ export default function Web_development_Hero_Section() {
                     style={{ height: "clamp(280px, 50vw, 560px)" }}
                 >
                     <Image
-                        src="/Meta_Ads.png"
+                        src="/website-design.jpg"
                         alt="Meta Ads — Facebook & Instagram Campaigns"
                         fill
                         className="object-cover object-top"

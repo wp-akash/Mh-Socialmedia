@@ -8,7 +8,7 @@ export default function ContactSection() {
       <div className="global-container md:px-4">
 
         {/* TITLE */}
-        <h3 className="h3">
+        <h3 className="h3 !text-white">
           Drop us an email for collaborations or career opportunities.
         </h3>
 

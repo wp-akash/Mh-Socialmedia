@@ -25,7 +25,7 @@ export default function Paid_ads_Hero_Section() {
                     <div className="max-w-lg">
                         <motion.div {...fadeUp(0)}>
                             <span className="inline-flex items-center gap-1.5 text-[11px] font-semibold tracking-widest uppercase text-zinc-500 mb-5">
-                                <span className="text-[#117C75]">✦</span> Paid Ads
+                                <span className="text-[#117C75]">✦</span> Brand and Design
                             </span>
                         </motion.div>
                         <motion.h1
@@ -80,7 +80,7 @@ export default function Paid_ads_Hero_Section() {
                     style={{ height: "clamp(280px, 50vw, 560px)" }}
                 >
                     <Image
-                        src="/Meta_Ads.png"
+                        src="/brand-and-design.jpg"
                         alt="Meta Ads — Facebook & Instagram Campaigns"
                         fill
                         className="object-cover object-top"

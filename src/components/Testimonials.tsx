@@ -214,7 +214,7 @@ function Testimonials() {
                         >
                             Loved By Our
                             <br />
-                            <span className="text-zinc-400 font-[400]">Community</span>
+                            <span className="text-zinc-400 font-[400]">Clients</span>
                         </motion.h2>
                     </div>
 

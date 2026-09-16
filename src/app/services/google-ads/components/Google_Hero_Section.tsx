@@ -78,7 +78,7 @@ export default function Google_Hero_Section() {
                     style={{ height: "clamp(280px, 50vw, 560px)" }}
                 >
                     <Image
-                        src="/Meta_Ads.png"
+                        src="/google-ads.jpg"
                         alt="Meta Ads — Facebook & Instagram Campaigns"
                         fill
                         className="object-cover object-top"

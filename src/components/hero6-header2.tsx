@@ -73,18 +73,19 @@ const menuItems: MenuItem[] = [
             href: "/services/web-development",
             icon: <Layout className="w-4 h-4 text-primary" />,
             description: "Modern websites tailored to your needs",
-          },
+          }
+
+        ],
+      },
+      {
+        section: "Marketing Solutions",
+        items: [
           {
             name: "Search Engine Optimization",
             href: "/services/seo",
             icon: <Search className="w-4 h-4 text-primary" />,
             description: "Improve your organic search rankings",
           },
-        ],
-      },
-      {
-        section: "Marketing Solutions",
-        items: [
           {
             name: "Social Media Marketing",
             href: "/services/social-media-marketing",
@@ -98,22 +99,17 @@ const menuItems: MenuItem[] = [
             description: "Valuable content to attract customers",
           },
           {
-            name: "E-commerce Marketing",
-            href: "/services/ecommerce-marketing",
+            name: "Paid Advertising",
+            href: "/services/paid-ads",
             icon: <ShoppingCart className="w-4 h-4 text-primary" />,
-            description: "Boost your online store sales",
+            description: "Drive targeted traffic with Paid Ads",
           },
-          {
-            name: "Email Marketing",
-            href: "/services/email-marketing",
-            icon: <Mail className="w-4 h-4 text-primary" />,
-            description: "Engaging campaigns and newsletters",
-          },
+
         ],
       },
     ],
   },
-  { name: "Our Works", href: "/product" },
+  { name: "Our Works", href: "/works" },
   { name: "Blog", href: "/blog" },
 ];
 

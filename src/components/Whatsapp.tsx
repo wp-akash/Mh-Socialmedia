@@ -35,7 +35,7 @@ function Whatsapp() {
         }}
       >
         <Link
-          href="https://wa.me/8801708591899"
+          href="https://wa.me/+971521400224"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Chat on WhatsApp"
