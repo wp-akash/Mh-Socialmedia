@@ -110,7 +110,7 @@ export default function AboutSection() {
           {/* Heading */}
           <motion.h2
             {...fadeUp(0.1)}
-            className="text-center text-4xl md:text-[3rem] font-[600] tracking-tight text-zinc-900 mb-4"
+            className="h2 primary_header text-center mb-4"
           >
             Our Guiding Principles
           </motion.h2>

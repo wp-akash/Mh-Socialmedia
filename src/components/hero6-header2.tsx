@@ -218,7 +218,7 @@ export const HeroHeader = () => {
                   alt="logo"
                   width={226}
                   height={122}
-                  className="h-10 w-auto transition-all duration-300"
+                  className="h-9 md:h-14 w-auto transition-all duration-300"
                   priority={true}
                 />
               </Link>

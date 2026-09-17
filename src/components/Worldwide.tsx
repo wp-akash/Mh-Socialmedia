@@ -56,7 +56,7 @@ const GlobalOperations: React.FC = () => {
           {/* Left Content */}
           <div className="space-y-8">
             <p className="text-lg text-gray-300 leading-relaxed max-w-lg primary_header_content">
-              At ICT Hub, we’re proud to serve happy customers in Africa, the
+              At MH Social Media, we’re proud to serve happy customers in Africa, the
               USA, Canada, Saudi Arabia, Japan, and France – and we’re just
               getting started!
             </p>
@@ -75,11 +75,10 @@ const GlobalOperations: React.FC = () => {
                 <button
                   key={index}
                   onClick={() => goToCountry(index)}
-                  className={`w-3 h-3 rounded-full transition-all duration-300 secondary_header ${
-                    index === currentCountry
-                      ? "bg-white scale-110"
-                      : "bg-gray-600 hover:bg-gray-400"
-                  }`}
+                  className={`w-3 h-3 rounded-full transition-all duration-300 secondary_header ${index === currentCountry
+                    ? "bg-white scale-110"
+                    : "bg-gray-600 hover:bg-gray-400"
+                    }`}
                   aria-label={`Go to ${countries[index].name}`}
                 />
               ))}
@@ -121,7 +120,7 @@ const GlobalOperations: React.FC = () => {
                       />
                       <div className="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent"></div>
                       <div className="absolute inset-0 z-10 flex items-center justify-center">
-                        <h3 className="h3 font-light text-white text-center">
+                        <h3 className="h3 font-light !text-white text-center">
                           {country.name}
                         </h3>
                       </div>
@@ -137,11 +136,10 @@ const GlobalOperations: React.FC = () => {
                 <button
                   key={country.name}
                   onClick={() => goToCountry(index)}
-                  className={`block text-left w-full py-3 px-4 rounded-lg transition-all duration-300 ${
-                    index === currentCountry
-                      ? "bg-white/10 text-white border-l-4 border-white"
-                      : "text-gray-400 hover:text-white hover:bg-white/5 border-l-4 border-transparent hover:border-gray-600"
-                  }`}
+                  className={`block text-left w-full py-3 px-4 rounded-lg transition-all duration-300 ${index === currentCountry
+                    ? "bg-white/10 text-white border-l-4 border-white"
+                    : "text-gray-400 hover:text-white hover:bg-white/5 border-l-4 border-transparent hover:border-gray-600"
+                    }`}
                 >
                   <div className="secondary_header_content font-light ">{country.name}</div>
                 </button>

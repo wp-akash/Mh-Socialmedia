@@ -155,7 +155,7 @@ export default function TeamSection() {
                     </motion.div>
                     <motion.h2
                         {...fadeUp(0.1)}
-                        className="text-4xl md:text-[2.8rem] font-[600] leading-[1.15] tracking-tight text-zinc-900"
+                        className="h2 primary_header"
                     >
                         Passionate professionals,
                         <br />
