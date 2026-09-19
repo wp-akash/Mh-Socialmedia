@@ -69,7 +69,7 @@ export default function Our_work_herosection() {
                 </div>
 
                 {/* ── Hero Image ── */}
-                <motion.div
+                {/* <motion.div
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -85,12 +85,11 @@ export default function Our_work_herosection() {
                         playsInline
                         className="w-full h-full object-cover object-top"
                     />
-                    {/* Subtle bottom gradient for smooth blend */}
                     <div
                         className="absolute bottom-0 left-0 right-0 h-24 pointer-events-none"
                         style={{ background: "linear-gradient(to top, rgba(255,255,255,0.4) 0%, transparent 100%)" }}
                     />
-                </motion.div>
+                </motion.div> */}
 
             </div>
         </section>

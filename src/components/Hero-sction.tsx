@@ -63,7 +63,7 @@ export default function HeroSction() {
       <div className="global-container md:px-4 relative z-20 h-full flex flex-col">
 
         {/* ── Center content (grows to fill) ── */}
-        <div className="flex-1 flex items-center">
+        <div className="flex-1 flex md:items-center items-end mb-2">
           <div className="max-w-2xl xl:max-w-3xl">
 
             {/* Badge */}

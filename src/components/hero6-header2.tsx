@@ -109,7 +109,7 @@ const menuItems: MenuItem[] = [
       },
     ],
   },
-  { name: "Our Works", href: "/works" },
+  { name: "Our Works", href: "/our-work" },
   { name: "Blog", href: "/blog" },
 ];
 

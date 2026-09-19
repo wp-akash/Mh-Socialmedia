@@ -19,7 +19,7 @@ export default function ContactSection() {
 
           {/* PROJECT EMAIL */}
           <div>
-            <p className="text-xs tracking-widest text-white/40 mb-4">
+            <p className="text-xs tracking-widest text-white/90 mb-4">
               PROJECTS · PARTNERSHIPS · QUERIES
             </p>
 
@@ -39,7 +39,7 @@ export default function ContactSection() {
 
           {/* CAREER EMAIL */}
           <div>
-            <p className="text-xs tracking-widest text-white/40 mb-4">
+            <p className="text-xs tracking-widest text-white/90 mb-4">
               CAREERS · JOIN OUR TEAM
             </p>
 
