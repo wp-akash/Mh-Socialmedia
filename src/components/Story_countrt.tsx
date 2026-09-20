@@ -32,20 +32,20 @@ export default function Story_countrt() {
               {...fadeUp(0.1)}
               className="text-4xl sm:text-5xl md:text-[3rem] font-[600] leading-[1.1] tracking-tight text-zinc-900"
             >
-              Minds MH Social Media Agency Is Your
-              <br />
-              Brand&apos;s Growth
+              Digital Growth. Creative Thinking. Real Business Results.
             </motion.h1>
           </div>
 
           {/* Right: description + CTA */}
           <motion.div
             {...fadeUp(0.2)}
-            className="max-w-xs flex flex-col gap-6 md:pt-14"
+            className="max-w-xs flex flex-col gap-3 md:pt-14"
           >
             <p className="text-sm text-zinc-500 leading-relaxed">
-              We&apos;re a team of strategists and creatives helping brands grow through
-              smart strategy, strong design, and results-driven execution.
+              MH Social is a Dubai-based digital marketing and technology agency helping businesses build stronger brands, reach the right customers and grow online.
+            </p>
+            <p className="text-sm text-zinc-500 leading-relaxed">
+              We combine strategy, creativity, technology and performance marketing to create digital solutions that deliver real business value.
             </p>
             <Link
               href="/contact"

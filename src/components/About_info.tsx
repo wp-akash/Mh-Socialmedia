@@ -32,7 +32,7 @@ const fadeUp = (delay = 0) => ({
 
 function About_info() {
   return (
-    <section className="py-20 md:py-24 bg-white">
+    <section className="py-20 md:py-24 bg-white" id="scroll-to-about">
       <div className="global-container md:px-4">
 
         {/* ── Top row: badge + headline + button ── */}

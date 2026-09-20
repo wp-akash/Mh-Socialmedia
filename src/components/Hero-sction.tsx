@@ -128,7 +128,7 @@ export default function HeroSction() {
 
             </p>
             <a
-              href="#services"
+              href="#scroll-to-about"
               className="group inline-flex items-center gap-2 text-white/50 hover:text-white text-xs font-medium tracking-wide uppercase transition-colors duration-300"
             >
               <MoveDown

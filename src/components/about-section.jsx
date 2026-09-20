@@ -59,11 +59,8 @@ export default function AboutSection() {
             {...fadeUp(0.1)}
             className="text-center text-2xl md:text-[1.75rem] font-[500] leading-[1.55] tracking-tight text-zinc-900 max-w-3xl mx-auto"
           >
-            We exist to empower businesses that dare to grow. Whether
-            you&apos;re an emerging startup or an established brand seeking
-            reinvention, our mission remains the same — to position you
-            where opportunity meets{" "}
-            <span className="text-[#117C75] italic">impact.</span>
+            To help businesses become more visible, more trusted and more profitable through smart {" "}
+            <span className="text-[#117C75] italic">digital growth.</span>
           </motion.p>
 
           {/* ── Stats Row ── */}

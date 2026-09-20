@@ -48,8 +48,8 @@ export default function CEO_Word() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.6, delay: 0.2 }}
                     >
-                        <p className="text-xl md:text-2xl font-bold text-white mb-2">Jack Smith</p>
-                        <p className="text-white/60 text-sm md:text-base font-medium">CEO of Marke</p>
+                        <p className="text-xl md:text-2xl font-bold text-white mb-2">Mahfuzul Haque Ashish</p>
+                        <p className="text-white/60 text-sm md:text-base font-medium">CEO of MH SOCIAL</p>
                     </motion.div>
                 </div>
             </div>

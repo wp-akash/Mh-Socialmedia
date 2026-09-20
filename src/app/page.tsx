@@ -12,6 +12,7 @@ import Development_Process from "@/components/Development_Process";
 import CEO_Word from "@/components/CEO_Word";
 import Connect_With_Us from "@/components/Connect_With_Us";
 import Testimonials from "@/components/Testimonials";
+import Why_choose_MH from "@/components/ui/Why_choose_MH";
 
 export default function Home() {
   return (
@@ -21,7 +22,8 @@ export default function Home() {
       <Services />
       <Free_consultation />
       <CEO_Word />
-      <Industries />
+      {/* <Industries /> */}
+      <Why_choose_MH />
       <Development_Process />
       {/* <Worldwide /> */}
       {/* <Testimonials/> */}

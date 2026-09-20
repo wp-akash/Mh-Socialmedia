@@ -15,25 +15,21 @@ const Industries = () => {
 
   const industries = [
     {
-      name: "Performance-first, always",
-      description: "We optimize for leads, sales, and ROI — not vanity metrics. Every dirham of your budget is accountable to results."
+      name: "Strategy First",
+      description: "We start with your business goals—not generic marketing packages."
     },
     {
-      name: "Everything under one roof",
-      description: "Strategy, creative, ads, SEO, and web — one aligned team, no finger-pointing between vendors."
+      name: "Creative + Performance",
+      description: "We combine strong creative ideas with measurable marketing performance."
     },
     {
-      name: "We know this market",
-      description: "We understand Dubai and GCC audiences, culture, and buying behavior — including the reality that 40% of UAE audiences prefer Arabic-language content, a gap most English-first brands miss."
+      name: "Built for 2026",
+      description: "From SEO, AEO, AIO and GEO to AI-powered advertising and digital experiences, we stay focused on where digital marketing is heading."
     },
     {
-      name: "Transparent reporting",
-      description: "You'll always know where your budget goes and what it delivers, with clear numbers you can take to any boardroom."
-    },
-    {
-      name: "A real partner",
-      description: "We're invested in your long-term growth, not a one-off project."
-    },
+      name: "Dubai & Beyond",
+      description: "We understand the UAE market while building strategies that can scale across the GCC, MENA and global markets."
+    }
 
   ]
 
@@ -44,7 +40,7 @@ const Industries = () => {
           {/* Left Column - Header */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <h3 className="h3 primary_header">Why Choose MH Social</h3>
+              <h3 className="h3 primary_header">Why Choose MH Social ?</h3>
             </div>
 
             <div className="max-w-md">
