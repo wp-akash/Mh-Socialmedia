@@ -84,11 +84,10 @@ export default function LanguageToggle() {
             aria-label="Switch to English"
             className={`relative flex items-center gap-1.5 px-4 py-2 text-xs font-extrabold cursor-pointer
                         transition-all duration-300 ease-in-out
-                        ${
-                          language === "en"
-                            ? "bg-[#117C75] text-white"
-                            : "bg-transparent text-white/40 hover:text-white/70 hover:bg-white/5"
-                        }`}
+                        ${language === "en"
+                ? "bg-[#117C75] text-white"
+                : "bg-transparent text-white/40 hover:text-white/70 hover:bg-white/5"
+              }`}
           >
             {/* Active dot */}
             {language === "en" && (
@@ -104,13 +103,12 @@ export default function LanguageToggle() {
           <button
             onClick={() => switchTo("ar")}
             aria-label="Switch to Arabic"
-            className={`relative flex items-center gap-1.5 px-4 py-2 text-xs font-extrabold cursor-pointer
+            className={`relative flex items-center gap-1.5 px-4 py-2 text-xs font-extrabold text-white cursor-pointer
                         transition-all duration-300 ease-in-out
-                        ${
-                          language === "ar"
-                            ? "bg-[#117C75] text-white"
-                            : "bg-transparent text-white/40 hover:text-white/70 hover:bg-white/5"
-                        }`}
+                        ${language === "ar"
+                ? "bg-[#117C75] text-white"
+                : "bg-transparent text-white/90 hover:text-white/70 hover:bg-white/5"
+              }`}
           >
             {/* Active dot */}
             {language === "ar" && (
