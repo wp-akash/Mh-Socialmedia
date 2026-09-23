@@ -2,6 +2,7 @@ import Footertwo from "@/components/Footertwo";
 import "./globals.css";
 import { HeroHeader } from "@/components/hero6-header2";
 import ConditionalLayout from "@/components/ConditionalLayout";
+import LanguageToggle from "@/components/LanguageToggle";
 // import SmoothScrollProvider from "@/components/SmoothScrollProvider";
 import { Poppins } from "next/font/google";
 // import Loader from "@/components/Loader";
@@ -43,6 +44,7 @@ export default function RootLayout({
       <body>
         {/* <SmoothScrollProvider> */}
         {/* <Loader /> */}
+        <LanguageToggle />
         <ConditionalLayout
           header={<HeroHeader />}
           footer={<Footertwo />}
