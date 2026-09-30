@@ -7,8 +7,8 @@ export default function CEO_Word() {
     return (
         <section className="relative w-full min-h-[500px] md:min-h-[650px] flex items-center justify-start overflow-hidden bg-zinc-900 mt-20">
             {/* Background Image */}
-            <div 
-                className="absolute inset-0 z-0 bg-[url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2532&auto=format&fit=crop')] bg-fixed bg-cover bg-right-top"
+            <div
+                className="absolute inset-0 z-0 bg-[url('/bg.jpg')] bg-fixed bg-cover bg-right-top"
             >
                 {/* Dark Overlay - left heavy for text readability */}
                 <div className="absolute inset-0 bg-gradient-to-r from-[#111111]/95 via-[#111111]/80 to-transparent" />

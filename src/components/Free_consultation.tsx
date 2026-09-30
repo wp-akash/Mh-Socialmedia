@@ -16,7 +16,7 @@ function Free_consultation() {
             </div>
 
             <div className="">
-              <Image src="/a.jpg" alt="Free Consultation" width={500} height={500} className="w-full h-auto object-contain" />
+              <Image src="/planning.jpg" alt="Free Consultation" width={500} height={500} className="w-full h-auto object-contain" />
             </div>
           </div>
         </div>
