@@ -214,7 +214,7 @@ export const HeroHeader = () => {
             <div className="lg:absolute lg:left-0 flex items-center">
               <Link href="/" aria-label="home" className="flex items-center space-x-2">
                 <Image
-                  src={isHomePage && !isScrolled ? "/mhsocialmedia_white.png" : "/Mhsocialmedia.jpg"}
+                  src={isHomePage && !isScrolled ? "/mhsocialmedia_whitelogo.png" : "/mhsocialmedia-blacklogo.jpg"}
                   alt="logo"
                   width={226}
                   height={122}

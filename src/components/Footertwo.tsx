@@ -97,16 +97,11 @@ export default function Footertwo() {
           </div>
 
           {/* ── Middle Section: Giant Text & Badge ── */}
-          <div className="relative mb-12 flex flex-col">
-
-            {/* Badge (positioned above text on right) */}
-
-
-            {/* Giant Logo Text */}
+          {/* <div className="relative mb-12 flex flex-col">
             <h1 className="text-[10.5vw] font-bold leading-none tracking-tighter text-white uppercase text-center lg:text-left">
               MHSOCIALMEDIA
             </h1>
-          </div>
+          </div> */}
 
           {/* ── Bottom Section ── */}
           <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-white/100 font-medium">
