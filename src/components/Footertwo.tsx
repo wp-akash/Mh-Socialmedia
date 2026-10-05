@@ -105,7 +105,7 @@ export default function Footertwo() {
 
           {/* ── Bottom Section ── */}
           <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-white/100 font-medium">
-            <p>© {new Date().getFullYear()} MH Social Powered by <Link className="hover:underline transition-all duration-300" href={"https://www.theicthub.com/"}>The ICT Hub</Link></p>
+            <p>© {new Date().getFullYear()} MH Social All rights reserved. </p>
             <p><Link className="hover:underline transition-all duration-300" href={"/privacy-policy"}>Privacy Policy</Link> | <Link className="hover:underline transition-all duration-300" href={"/contact"}>Contact</Link></p>
           </div>
 
