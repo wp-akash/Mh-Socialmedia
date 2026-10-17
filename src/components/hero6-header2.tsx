@@ -92,12 +92,12 @@ const menuItems: MenuItem[] = [
             icon: <Share2 className="w-4 h-4 text-primary" />,
             description: "Engage and grow your social following",
           },
-          {
-            name: "Content Marketing",
-            href: "/services/content-marketing",
-            icon: <FileText className="w-4 h-4 text-primary" />,
-            description: "Valuable content to attract customers",
-          },
+          // {
+          //   name: "Content Marketing",
+          //   href: "/services/content-marketing",
+          //   icon: <FileText className="w-4 h-4 text-primary" />,
+          //   description: "Valuable content to attract customers",
+          // },
           {
             name: "Paid Advertising",
             href: "/services/paid-ads",
