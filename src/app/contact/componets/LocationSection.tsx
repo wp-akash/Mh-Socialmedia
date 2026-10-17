@@ -46,7 +46,7 @@ export default function LocationSection() {
                   <h4 className="secondary_header mb-4">Dubai</h4>
 
                   <p className="text-gray-600 leading-relaxed">
-                    Wadi Al Safa 1212-R19
+                    Office No. R19-121, Wavez Residence -Retail-19, Wadi Al Safa 2
                   </p>
                 </div>
                 <div className="md:text-right text-center">
